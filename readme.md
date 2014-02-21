@@ -1,4 +1,4 @@
-## Hexagonal Laravel Architecture
+## Hexagonal Laravel Architecture - RFC
 
 In building large scale web applications MVC seems like a good solution in the initial design phase.  However after having built a few large apps that have multiple entry points (web, cli, api etc) you start to find that MVC breaks down.  Enter Hexagonal Architecture.
 
@@ -13,6 +13,10 @@ I won't go into the specifics of what Hexagonal Architecture **IS** in this read
 * [GoRuCon 2012 Hexagonal Rails by Matt Wynne](http://www.youtube.com/watch?v=CGN4RFkhH2M)
 * [Hexagonal Architecture for Rails Developers](http://victorsavkin.com/post/42542190528/hexagonal-architecture-for-rails-developers)
 * [Scenarios in Laravel PHP (Hexagonal Pattern Design)](http://www.keltdockins.com/2/post/2013/12/scenarios-in-laravel-php-hexagonal-pattern-design.html)
+
+## Feedback / Comment
+
+Please make pull requests and create issues for discussion and improvement.
 
 ## File Structure
 
@@ -102,7 +106,3 @@ Controllers (or any other class could too) implement Notification interfaces so 
 
 As a best practice we try to "code to an interface", which is why our Eloquent model implmements the `InstanceInterface`. That way we can type hint that interface in other functions, and later if we decide to have models that aren't Eloquent they can implment that interface too and everything should still work.
 
-
-## Feedback
-
-Please make pull requests and create issues for discussion and improvement.
