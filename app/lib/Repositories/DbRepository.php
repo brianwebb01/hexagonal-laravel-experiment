@@ -3,7 +3,7 @@
 use Contracts\Repositories\OrderRepositoryInterface;
 use Contracts\Instances\InstanceInterface;
 
-abstract class DbRepository implements OrderRepositoryInterface
+abstract class DbRepository implements RepositoryInterface
 {
 
     protected $model;
