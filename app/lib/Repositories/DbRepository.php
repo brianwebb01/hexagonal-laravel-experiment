@@ -1,6 +1,6 @@
 <?php namespace Repositories;
 
-use Contracts\Repositories\OrderRepositoryInterface;
+use Contracts\Repositories\RepositoryInterface;
 use Contracts\Instances\InstanceInterface;
 
 abstract class DbRepository implements RepositoryInterface
