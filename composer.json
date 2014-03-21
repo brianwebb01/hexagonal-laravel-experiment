@@ -7,7 +7,7 @@
 		"laravel/framework": "4.1.*"
 	},
 	"require-dev": {
-		"way/generators": "1.0.*@dev",
+		"way/generators": "dev-master",
 		"mockery/mockery": "dev-master",
 		"way/laravel-test-helpers": "dev-master"
 	},
