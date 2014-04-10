@@ -5,7 +5,6 @@
  * this class and declare your errors and messages as static variables to clean
  * up validation in controllers.
  *
- * @package AnswerAutomationReports
  * @author  John Arstingstall <jarstingstall@indatus.com>
  */
 
