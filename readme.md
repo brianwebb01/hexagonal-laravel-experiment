@@ -12,7 +12,8 @@ I won't go into the specifics of what Hexagonal Architecture **IS** in this read
 * [OOP Business Applications: Entity, Boundry, Interactor](http://www.whitewashing.de/2012/08/13/oop_business_applications_entity_boundary_interactor.html)
 * [GoRuCon 2012 Hexagonal Rails by Matt Wynne](http://www.youtube.com/watch?v=CGN4RFkhH2M)
 * [Hexagonal Architecture for Rails Developers](http://victorsavkin.com/post/42542190528/hexagonal-architecture-for-rails-developers)
-* [Scenarios in Laravel PHP (Hexagonal Pattern Design)](http://www.keltdockins.com/2/post/2013/12/scenarios-in-laravel-php-hexagonal-pattern-design.html)
+* [Scenarios in Laravel PHP (Hexagonal Pattern Design) Pt 1](http://keltdockins.com/2014/01/15/hexagonal-pattern-design-scenarios/)
+* [Macros in Laravel PHP (Hexagonal Pattern Design) Pt 2](http://keltdockins.com/2014/01/16/hexagonal-pattern-design-macros/)
 
 ## Feedback / Comment
 
